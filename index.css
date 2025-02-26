@@ -14,19 +14,29 @@ header {
     align-items: center;
     justify-content: center;
     padding: 20px 10%;
+    gap: 20px;
     background-color: #fff;
     color: #000;
     font-size: 1.8rem;
+    font-weight: bold;
+    & img {
+        width: 50px;
+        height: 50px;
+    }
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 10%;
+    padding-top: 150px;
     width: 100vw;
     height: 100vh;
     font-size: 0.8rem;
+    text-align: center;
+
+    & p
+    {
+        font-size: 1.1rem;
+        color: #9c9c9c;
+    }
 }
 
 footer {
